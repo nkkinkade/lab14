@@ -27,7 +27,7 @@ ul {
 }
 
 ul li {
-    display: inline-block; */
+    display: inline-block;
     padding-right: 50px;
     padding-left: 50px;
     background-color: rgb(238, 204, 13);
@@ -66,23 +66,35 @@ legend {
 label {
     display: block;
     padding-bottom: 15px;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 #items {
-    padding-left: 200px;
     margin-left: 36px;
+    text-align: right;
 }
 
 #quantity {
-    padding-left: 48px;
+    width: 86px;
 }
 
 fieldset > input {
     float: right;
-    margin-right: 75px;
+    margin-right: 85px;
     margin-top: 20px;
+    background-color: rgb(238, 204, 13);
 }
+
+fieldset > input:hover {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 
 footer {
     position: fixed;
