@@ -45,8 +45,9 @@ function addSelectedItemToCart() {
   // TODO: get the quantity
   var userQuantity = document.getElementById('quantity');
   var quantity = userQuantity.value;
-  var item = new CartItem(selection, quantity);
+ 
   // TODO: using those, add one item to the Cart
+
 
 }
 
